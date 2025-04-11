@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }
 
         // Initialize MediaPlayer with clap sound
-        mediaPlayer = MediaPlayer.create(this,  android.provider.Settings.System.DEFAULT_NOTIFICATION_URI);
+        mediaPlayer = MediaPlayer.create(this,  R.raw.clap_sound);
 
         // Initialize vibrator for haptic feedback
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
