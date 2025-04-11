@@ -1,0 +1,61 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Gradle files
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+/local.properties
+/.idea/
+/*.iml
+
+# Android Studio files
+/captures/
+/output.json
+/.cxx/
+/.externalNativeBuild/
+
+# Dependency caches
+.gradle/
+/build/
+
+# Keystore files (Important: Avoid pushing private keys)
+*.jks
+*.keystore
+
+# Logs and miscellaneous
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+
+# Android Debug Database
+*.db
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Virtual machine files
+*.hprof
+
+# Node modules (if React Native or using Node)
+node_modules/
+
+# Test Reports
+/test_output/
